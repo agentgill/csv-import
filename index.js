@@ -1,6 +1,7 @@
 const csv = require('csvtojson');
 const csvFilePath = 'data.csv';
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
+const fileUpload = require('./fileLoad');
 
 // Transform (Mapping)
 const csvWriter = createCsvWriter({

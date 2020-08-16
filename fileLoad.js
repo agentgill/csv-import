@@ -24,7 +24,7 @@ async function startMe() {
     console.log('User ID: ' + userInfo.id + ':' + userInfo.organizationId);
   });
 
-  const bulkUpload = await loadFile();
+  await loadFile();
   return 'Done!';
 }
 
