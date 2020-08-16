@@ -1,0 +1,3 @@
+PartnerId,PartnerName,PartnerBillableAccountId,CustomerCompanyName,InvoiceNumber,ChargeStartDate,ChargeEndDate,ServiceName,ServiceType,Region,Sku,DetailLineItemId,ConsumedQuantity,IncludedQuantity,OverageQuantity,ListPrice,Currency,ChargeType,BillingCycleType,Unit
+F79999999999,Universal Containers,9999999999,Salesforce.com,INV0000001,05/05/2020,13/05/2020,Virtual Network,IP Addresses,,SFDC-00001,1,359.4,0,359.4,0.0034,USD,Assess usage fee when cancel,Monthly,1 Hour
+F79999999999,Universal Containers,9999999999,Salesforce.com,INV0000002,05/05/2020,13/05/2020,Backup,,,SFDC-00002,1,7.51612853,0,7.51612853,8.5,USD,Assess usage fee when cancel,Monthly,1/Month
