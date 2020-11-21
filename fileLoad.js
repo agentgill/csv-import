@@ -28,10 +28,10 @@ async function startMe() {
   return 'Done!';
 }
 
-const bulkOptions = { extIdField: 'ExternalId__c' };
+const bulkOptions = { extIdField: 'External_Id__c' };
 
 async function loadFile() {
-  conn.bulk.load('Big_Data__c', 'upsert', bulkOptions, csvFileIn, function (
+  conn.bulk.load('Usage_Staging__c', 'upsert', bulkOptions, csvFileIn, function (
     err,
     results
   ) {
